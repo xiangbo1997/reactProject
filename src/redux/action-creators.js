@@ -3,11 +3,11 @@
         同步action和异步action
 */
 //引入action-types
-import {} from './action-types'
+import {SAVE_USER} from './action-types'
+
 //同步action返回值是一个对象
 
-
-export  const xxx =()=>({})
+export  const saveUser =(value)=>({type:SAVE_USER,data:value})
 
 //异步action返回值是一个函数
 export const xx =()=> {
