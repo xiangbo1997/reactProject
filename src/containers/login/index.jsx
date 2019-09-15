@@ -1,12 +1,16 @@
 import React, {Component} from 'react';
 import {Form, Icon, Input, Button, message} from 'antd';
-import logo from './logo.png';
+import logo from '@assets/images/logo.png';
+
 import './index.less';
 import {connect} from 'react-redux';
 import {saveUser} from '../../redux/action-creators'
 import {reqLogin} from '../../api'
+import withCheckLogin from '../with-check-login'
+
 
 // 引入存储数据的方法:利用高阶组件
+@withCheckLogin
 @connect(
     null,
     {saveUser}

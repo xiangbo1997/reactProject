@@ -22,6 +22,9 @@ module.exports = override(
             '@conts': resolve(__dirname, 'src/containers'),
             '@config': resolve(__dirname, 'src/config'),
             '@redux': resolve(__dirname, 'src/redux'),
+            '@api': resolve(__dirname, 'src/api'),
+            '@untils': resolve(__dirname, 'src/untils'),
+            '@assets': resolve(__dirname, 'src/assets'),
         }
     )
 )

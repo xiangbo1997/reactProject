@@ -1,9 +1,11 @@
 import React, {Component} from 'react'
+// 引入存储数据的方法:利用高阶组件
 
-export default class Home extends Component {
+ class Home extends Component {
     render() {
         return (
-            <div>Home</div>
+            <div>home</div>
         )
     }
 }
+export default Home

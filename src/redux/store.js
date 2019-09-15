@@ -7,9 +7,9 @@ import reducers from './reducers';
 import thunk from 'redux-thunk';
 //与Chrome插件配合使用的组件（调试工具）
 import {composeWithDevTools} from 'redux-devtools-extension'
-
+import {isEnv} from '@config';
 let store ;
-if (process.env.NODE_ENV === 'development'){
+if (isEnv){
     //开发环境
     store = createStore(reducers,composeWithDevTools(applyMiddleware(thunk)))
 
