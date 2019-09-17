@@ -1,0 +1,15 @@
+{
+  "title": "Gui Gu",
+  "menus":{
+    "home": "Home",
+    "products": "Products",
+    "product": "Product",
+    "category": "Category",
+    "user": "User",
+    "role": "role",
+    "charts": "charts",
+    "bar": "bar",
+    "line": "line",
+    "pie": "pie"
+  }
+}
